@@ -3,25 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Principiantes</title>
+  <title>GitHub Principiantes 🚀</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="img/banner.png" alt="GitHub Principiantes">
+    <img src="img/banner.png" alt="GitHub Principiantes Banner">
     <h1>GitHub Principiantes 🚀</h1>
-    <p>Aprende Git y GitHub desde cero con ejercicios y plantillas.</p>
+    <p>Aprende Git y GitHub paso a paso con tutoriales completos</p>
   </header>
 
   <main>
     <section id="tutoriales">
       <h2>Tutoriales paso a paso</h2>
-      <div id="cards-container"></div>
+      <div id="cards-container">
+
+        <div class="card" onclick="abrirTutorial('tutorial1')">
+          <h3>Crear tu primer repositorio</h3>
+          <p>Aprende cómo crear y clonar tu primer repositorio en GitHub.</p>
+        </div>
+
+        <div class="card" onclick="abrirTutorial('tutorial2')">
+          <h3>Commits bien hechos</h3>
+          <p>Cómo hacer commits claros y organizados.</p>
+        </div>
+
+        <div class="card" onclick="abrirTutorial('tutorial3')">
+          <h3>Uso de ramas (branches)</h3>
+          <p>Aprende a crear y trabajar con ramas sin afectar main.</p>
+        </div>
+
+        <div class="card" onclick="abrirTutorial('tutorial4')">
+          <h3>Pull Requests</h3>
+          <p>Cómo abrir tu primer Pull Request y colaborar en proyectos.</p>
+        </div>
+
+        <div class="card" onclick="abrirTutorial('tutorial5')">
+          <h3>README profesional</h3>
+          <p>Cómo escribir un README claro y organizado para tu proyecto.</p>
+        </div>
+
+      </div>
     </section>
+
+    <!-- Contenedor de tutoriales completos -->
+    <section id="tutorial-completo" class="hidden">
+      <button onclick="cerrarTutorial()">⬅ Volver a tutoriales</button>
+      <div id="contenido-tutorial"></div>
+    </section>
+
   </main>
 
   <footer>
-    <p>Hecho con ❤️ para la comunidad</p>
+    <p>Hecho con ❤️ por <strong>ghprincipiantes</strong></p>
   </footer>
 
   <script src="script.js"></script>
