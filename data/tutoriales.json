@@ -1,0 +1,29 @@
+{
+  "tutoriales": [
+    {
+      "titulo": "Crear tu primer repositorio",
+      "descripcion": "Aprende a crear y clonar tu primer repositorio en GitHub paso a paso.",
+      "link": "01-primer-repo.md"
+    },
+    {
+      "titulo": "Commits bien hechos",
+      "descripcion": "Aprende a escribir commits claros y profesionales.",
+      "link": "02-commits-bien-hechos.md"
+    },
+    {
+      "titulo": "Uso de ramas",
+      "descripcion": "Cómo usar branches para desarrollar sin afectar la rama principal.",
+      "link": "03-branches.md"
+    },
+    {
+      "titulo": "Pull Requests",
+      "descripcion": "Cómo hacer tu primer Pull Request y colaborar en proyectos.",
+      "link": "04-pull-request.md"
+    },
+    {
+      "titulo": "README profesional",
+      "descripcion": "Crea un README profesional y claro para tus proyectos.",
+      "link": "05-readme-perfecto.md"
+    }
+  ]
+}
